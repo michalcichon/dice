@@ -49,7 +49,7 @@ class DiceViewController: UIViewController {
     
     @objc private func tapOnView() {
         refreshButton.didPress()
-        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.3) {
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.1) {
             self.refreshButton.didRelease()
         }
         userRefreshHandled()

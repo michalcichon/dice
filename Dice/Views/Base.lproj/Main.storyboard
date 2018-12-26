@@ -30,11 +30,11 @@
                                     <segue destination="voI-kL-yPb" kind="presentation" modalTransitionStyle="crossDissolve" id="dZT-xg-hFf"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y9l-4s-KYz">
-                                <rect key="frame" x="157.5" y="543" width="60" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y9l-4s-KYz" customClass="ShrinkButton" customModule="Dice" customModuleProvider="target">
+                                <rect key="frame" x="147.5" y="523" width="80" height="80"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="60" id="MJ1-Di-Wyx"/>
-                                    <constraint firstAttribute="height" constant="60" id="zeH-OR-eGs"/>
+                                    <constraint firstAttribute="width" constant="80" id="MJ1-Di-Wyx"/>
+                                    <constraint firstAttribute="height" constant="80" id="zeH-OR-eGs"/>
                                 </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" image="refresh-icon"/>

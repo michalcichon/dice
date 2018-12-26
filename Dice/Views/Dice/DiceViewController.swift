@@ -16,6 +16,10 @@ class DiceViewController: UIViewController {
     
     private var viewModel = DiceViewModel()
     
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = colors.randomElement()

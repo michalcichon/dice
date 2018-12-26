@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  DiceViewController.swift
 //  Dice
 //
 //  Created by Michał Cichoń on 25/12/2018.

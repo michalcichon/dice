@@ -67,7 +67,7 @@ class DiceViewController: UIViewController {
     }
     
     private func refreshBackgroundColor() {
-        UIView.animate(withDuration: 1.0, delay: 0.0, options:[.curveEaseIn], animations: {
+        UIView.animate(withDuration: 0.5, delay: 0.0, options:[.curveEaseIn], animations: {
             let previousColor = self.view.backgroundColor
             var nextColor = self.colors.randomElement()
             while previousColor == nextColor {

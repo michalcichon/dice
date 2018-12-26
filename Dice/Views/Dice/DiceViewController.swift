@@ -10,11 +10,23 @@ import UIKit
 
 class DiceViewController: UIViewController {
 
+    @IBOutlet weak var diceView: DiceView!
+    
+    private var viewModel = DiceViewModel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        refresh()
     }
 
-
+    @IBAction func refreshAction(_ sender: Any) {
+        refresh()
+    }
+    
+    private func refresh() {
+        viewModel.roll()
+        diceView.result = viewModel.result
+    }
+    
 }
 

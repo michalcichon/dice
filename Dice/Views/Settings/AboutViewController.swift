@@ -19,6 +19,12 @@ class AboutViewController: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     
+    @IBAction func visitWebsite(_ sender: Any) {
+        if let url = URL(string: "https://michalcichon.github.io") {
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

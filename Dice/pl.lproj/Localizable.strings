@@ -9,3 +9,4 @@
 "app_name" = "Kostka";
 "description" = "Kliknij lub potrząśnij aby rzucić kostką!";
 "settings_counter" = "Licznik";
+"settings_author" = "Przejdź do strony autora";

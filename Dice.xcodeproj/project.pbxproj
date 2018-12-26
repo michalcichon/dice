@@ -18,6 +18,7 @@
 		90C3699521D2B3A900854988 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C3699421D2B3A900854988 /* AboutViewController.swift */; };
 		90C3699921D2CA2500854988 /* DiceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C3699821D2CA2500854988 /* DiceViewModel.swift */; };
 		90C3699D21D3963200854988 /* String+DiceCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C3699C21D3963200854988 /* String+DiceCommon.swift */; };
+		A265839B2D0867E17ED86305 /* Pods_Dice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64FF3FBAA56840C2A4EC119A /* Pods_Dice.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		64FF3FBAA56840C2A4EC119A /* Pods_Dice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9018D63B21D3BDFC009F6021 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9018D63E21D3BFEF009F6021 /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
 		90C3697121D29F1100854988 /* Dice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dice.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +48,8 @@
 		90C3699421D2B3A900854988 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		90C3699821D2CA2500854988 /* DiceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceViewModel.swift; sourceTree = "<group>"; };
 		90C3699C21D3963200854988 /* String+DiceCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+DiceCommon.swift"; sourceTree = "<group>"; };
+		9B43763DEA496DF944FB8DCE /* Pods-Dice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dice.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dice/Pods-Dice.release.xcconfig"; sourceTree = "<group>"; };
+		CAE43293FE7DE7E6184B8FBB /* Pods-Dice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dice/Pods-Dice.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A265839B2D0867E17ED86305 /* Pods_Dice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +71,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BD0BB5D5459AC5FF1467A2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAE43293FE7DE7E6184B8FBB /* Pods-Dice.debug.xcconfig */,
+				9B43763DEA496DF944FB8DCE /* Pods-Dice.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9018D63D21D3BFB8009F6021 /* Common */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +111,8 @@
 				90C3697321D29F1100854988 /* Dice */,
 				90C3698821D29F1300854988 /* DiceTests */,
 				90C3697221D29F1100854988 /* Products */,
+				1BD0BB5D5459AC5FF1467A2C /* Pods */,
+				FC624DB5FCC8DE7CD2A991C7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,6 +159,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		FC624DB5FCC8DE7CD2A991C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64FF3FBAA56840C2A4EC119A /* Pods_Dice.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,6 +174,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90C3698E21D29F1300854988 /* Build configuration list for PBXNativeTarget "Dice" */;
 			buildPhases = (
+				3200CD7321B84A08C5EB9998 /* [CP] Check Pods Manifest.lock */,
 				90C3696D21D29F1100854988 /* Sources */,
 				90C3696E21D29F1100854988 /* Frameworks */,
 				90C3696F21D29F1100854988 /* Resources */,
@@ -239,6 +264,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3200CD7321B84A08C5EB9998 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		90C3696D21D29F1100854988 /* Sources */ = {
@@ -351,7 +397,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -406,7 +452,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -418,6 +464,7 @@
 		};
 		90C3698F21D29F1300854988 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAE43293FE7DE7E6184B8FBB /* Pods-Dice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -436,6 +483,7 @@
 		};
 		90C3699021D29F1300854988 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B43763DEA496DF944FB8DCE /* Pods-Dice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

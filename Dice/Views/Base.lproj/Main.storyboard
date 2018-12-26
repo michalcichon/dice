@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rsd-z0-4A0">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rsd-z0-4A0">
                                 <rect key="frame" x="303" y="52" width="40" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="9mp-vS-GNE"/>
@@ -31,20 +31,30 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y9l-4s-KYz">
-                                <rect key="frame" x="167.5" y="563" width="40" height="40"/>
+                                <rect key="frame" x="157.5" y="543" width="60" height="60"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="40" id="MJ1-Di-Wyx"/>
-                                    <constraint firstAttribute="height" constant="40" id="zeH-OR-eGs"/>
+                                    <constraint firstAttribute="width" constant="60" id="MJ1-Di-Wyx"/>
+                                    <constraint firstAttribute="height" constant="60" id="zeH-OR-eGs"/>
                                 </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" image="refresh-icon"/>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dE9-H1-0TR" customClass="DiceView" customModule="Dice" customModuleProvider="target">
+                                <rect key="frame" x="32" y="178" width="311" height="311"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="dE9-H1-0TR" secondAttribute="height" multiplier="1:1" id="BuR-Lr-e0e"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.77155307788944727" blue="0.23154836683417085" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="dE9-H1-0TR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="1fd-4v-03y"/>
                             <constraint firstItem="Rsd-z0-4A0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="72m-Hn-Pqv"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="y9l-4s-KYz" secondAttribute="bottom" constant="64" id="Dtu-VS-OfL"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Rsd-z0-4A0" secondAttribute="trailing" constant="32" id="KHA-Xi-SkF"/>
+                            <constraint firstItem="dE9-H1-0TR" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Li2-Wy-6NR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dE9-H1-0TR" secondAttribute="trailing" constant="32" id="Vna-gD-01W"/>
                             <constraint firstItem="y9l-4s-KYz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rR5-h1-aer"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

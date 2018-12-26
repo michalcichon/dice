@@ -102,8 +102,8 @@
                                     <action selector="closeAction:" destination="voI-kL-yPb" eventType="touchUpInside" id="JfU-OB-ANJ"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to roll or shake it!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="85I-nU-f9m">
-                                <rect key="frame" x="114" y="366" width="147" height="18"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to roll or shake it!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="85I-nU-f9m">
+                                <rect key="frame" x="40" y="366" width="295" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -146,12 +146,14 @@
                             <constraint firstItem="per-lL-JNN" firstAttribute="centerX" secondItem="n6C-e7-EBV" secondAttribute="centerX" id="BCJ-Im-jBO"/>
                             <constraint firstItem="3FU-jO-gdV" firstAttribute="trailing" secondItem="846-CP-edz" secondAttribute="trailing" constant="20" id="D6w-fb-CT6"/>
                             <constraint firstItem="wRw-vi-2pn" firstAttribute="top" secondItem="85I-nU-f9m" secondAttribute="bottom" constant="20" id="DiK-ux-qZt"/>
+                            <constraint firstItem="85I-nU-f9m" firstAttribute="leading" secondItem="3FU-jO-gdV" secondAttribute="leading" constant="40" id="Iys-xw-yEg"/>
                             <constraint firstItem="3FU-jO-gdV" firstAttribute="trailing" secondItem="AeY-Y3-HtN" secondAttribute="trailing" constant="32" id="LUN-I9-wqQ"/>
                             <constraint firstItem="85I-nU-f9m" firstAttribute="centerX" secondItem="n6C-e7-EBV" secondAttribute="centerX" id="Mob-Ki-VFc"/>
                             <constraint firstItem="AeY-Y3-HtN" firstAttribute="top" secondItem="3FU-jO-gdV" secondAttribute="top" constant="32" id="T8w-8J-kvB"/>
                             <constraint firstItem="846-CP-edz" firstAttribute="top" secondItem="per-lL-JNN" secondAttribute="bottom" constant="20" id="ZGt-m1-HLd"/>
                             <constraint firstItem="846-CP-edz" firstAttribute="leading" secondItem="3FU-jO-gdV" secondAttribute="leading" constant="20" id="hKZ-aI-Zui"/>
                             <constraint firstItem="per-lL-JNN" firstAttribute="top" secondItem="3FU-jO-gdV" secondAttribute="top" constant="100" id="o18-e7-11o"/>
+                            <constraint firstItem="3FU-jO-gdV" firstAttribute="trailing" secondItem="85I-nU-f9m" secondAttribute="trailing" constant="40" id="sJO-HM-0Ss"/>
                             <constraint firstItem="3FU-jO-gdV" firstAttribute="trailing" secondItem="wRw-vi-2pn" secondAttribute="trailing" constant="40" id="wve-dZ-eyk"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="3FU-jO-gdV"/>

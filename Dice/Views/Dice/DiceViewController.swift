@@ -16,6 +16,8 @@ class DiceViewController: UIViewController {
     
     private var viewModel = DiceViewModel()
     
+    private lazy var tapGesture = UITapGestureRecognizer(target: self, action: #selector(userRefreshHandled))
+    
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent
     }
@@ -23,6 +25,7 @@ class DiceViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = colors.randomElement()
+        view.addGestureRecognizer(tapGesture)
         becomeFirstResponder()
         refresh()
     }
@@ -43,7 +46,7 @@ class DiceViewController: UIViewController {
         userRefreshHandled()
     }
     
-    private func userRefreshHandled() {
+    @objc private func userRefreshHandled() {
         refresh()
         refreshBackgroundColor()
         StatService.shared.increaseCounter()

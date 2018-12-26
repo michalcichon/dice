@@ -6,6 +6,6 @@
   Copyright © 2018 Michal Cichon. All rights reserved.
 */
 
-"app_name" = "Dice";
-"description" = "Tap or shake to roll a dice!";
-"settings_counter" = "Counter";
+"app_name" = "Tärningar";
+"description" = "Peka eller skaka för att rulla en tärning!";
+"settings_counter" = "Disken";

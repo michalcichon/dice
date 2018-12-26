@@ -6,6 +6,6 @@
   Copyright © 2018 Michal Cichon. All rights reserved.
 */
 
-"app_name" = "Dice";
-"description" = "Tap or shake to roll a dice!";
-"settings_counter" = "Counter";
+"app_name" = "Dadi";
+"description" = "Tocca o agita per tirare un dado";
+"settings_counter" = "Contatore";

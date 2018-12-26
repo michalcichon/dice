@@ -6,6 +6,6 @@
   Copyright © 2018 Michal Cichon. All rights reserved.
 */
 
-"app_name" = "Dice";
-"description" = "Tap or shake to roll a dice!";
-"settings_counter" = "Counter";
+"app_name" = "Noppa";
+"description" = "Napauta tai ravista rullaa noppaa!";
+"settings_counter" = "Laskuri";

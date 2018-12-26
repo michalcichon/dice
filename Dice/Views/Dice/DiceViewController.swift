@@ -16,7 +16,20 @@ class DiceViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        becomeFirstResponder()
         refresh()
+    }
+    
+    override var canBecomeFirstResponder: Bool {
+        get {
+            return true
+        }
+    }
+    
+    override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
+        if motion == .motionShake {
+            refresh()
+        }
     }
 
     @IBAction func refreshAction(_ sender: Any) {

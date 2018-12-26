@@ -8,3 +8,4 @@
 
 "app_name" = "Dice";
 "description" = "Tap to roll or shake it!";
+"settings_counter" = "Counter";

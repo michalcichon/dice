@@ -35,14 +35,18 @@ class DiceViewController: UIViewController {
     
     override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
         if motion == .motionShake {
-            refresh()
-            refreshBackgroundColor()
+            userRefreshHandled()
         }
     }
 
     @IBAction func refreshAction(_ sender: Any) {
+        userRefreshHandled()
+    }
+    
+    private func userRefreshHandled() {
         refresh()
         refreshBackgroundColor()
+        StatService.shared.increaseCounter()
     }
     
     private func refresh() {

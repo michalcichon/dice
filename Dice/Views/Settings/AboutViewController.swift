@@ -12,6 +12,8 @@ class AboutViewController: UIViewController {
 
     @IBOutlet weak var versionLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet weak var counterLabel: UILabel!
+    @IBOutlet weak var counterValueLabel: UILabel!
     
     @IBAction func closeAction(_ sender: Any) {
         dismiss(animated: true, completion: nil)
@@ -29,6 +31,8 @@ class AboutViewController: UIViewController {
         
         versionLabel.text = "\(appName) \(shortVersion) \(bundlePart)"
         descriptionLabel.text = "description".localized
+        counterLabel.text = "settings_counter".localized
+        counterValueLabel.text = String(StatService.shared.counter)
     }
     
     private func infoString(key: String) -> String? {

@@ -108,22 +108,57 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wRw-vi-2pn">
+                                <rect key="frame" x="40" y="404" width="295" height="40"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Counter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HEx-y1-EXZ">
+                                        <rect key="frame" x="10" y="11" width="58" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="123" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="caK-Cy-e9U">
+                                        <rect key="frame" x="261.5" y="11.5" width="23.5" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.9843018651008606" green="0.98494595289230347" blue="0.95150607824325562" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="HEx-y1-EXZ" firstAttribute="leading" secondItem="wRw-vi-2pn" secondAttribute="leading" constant="10" id="Itz-ud-wLA"/>
+                                    <constraint firstAttribute="height" constant="40" id="RRX-mg-bIY"/>
+                                    <constraint firstItem="caK-Cy-e9U" firstAttribute="centerY" secondItem="wRw-vi-2pn" secondAttribute="centerY" id="Y1U-l3-MgM"/>
+                                    <constraint firstAttribute="trailing" secondItem="caK-Cy-e9U" secondAttribute="trailing" constant="10" id="im5-1D-JFl"/>
+                                    <constraint firstItem="HEx-y1-EXZ" firstAttribute="centerY" secondItem="wRw-vi-2pn" secondAttribute="centerY" id="wL4-6s-nsC"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="wRw-vi-2pn" firstAttribute="leading" secondItem="3FU-jO-gdV" secondAttribute="leading" constant="40" id="7BM-mg-8fb"/>
                             <constraint firstItem="85I-nU-f9m" firstAttribute="top" secondItem="846-CP-edz" secondAttribute="bottom" constant="8" id="B2n-8l-UtD"/>
                             <constraint firstItem="per-lL-JNN" firstAttribute="centerX" secondItem="n6C-e7-EBV" secondAttribute="centerX" id="BCJ-Im-jBO"/>
                             <constraint firstItem="3FU-jO-gdV" firstAttribute="trailing" secondItem="846-CP-edz" secondAttribute="trailing" constant="20" id="D6w-fb-CT6"/>
+                            <constraint firstItem="wRw-vi-2pn" firstAttribute="top" secondItem="85I-nU-f9m" secondAttribute="bottom" constant="20" id="DiK-ux-qZt"/>
                             <constraint firstItem="3FU-jO-gdV" firstAttribute="trailing" secondItem="AeY-Y3-HtN" secondAttribute="trailing" constant="32" id="LUN-I9-wqQ"/>
                             <constraint firstItem="85I-nU-f9m" firstAttribute="centerX" secondItem="n6C-e7-EBV" secondAttribute="centerX" id="Mob-Ki-VFc"/>
                             <constraint firstItem="AeY-Y3-HtN" firstAttribute="top" secondItem="3FU-jO-gdV" secondAttribute="top" constant="32" id="T8w-8J-kvB"/>
                             <constraint firstItem="846-CP-edz" firstAttribute="top" secondItem="per-lL-JNN" secondAttribute="bottom" constant="20" id="ZGt-m1-HLd"/>
                             <constraint firstItem="846-CP-edz" firstAttribute="leading" secondItem="3FU-jO-gdV" secondAttribute="leading" constant="20" id="hKZ-aI-Zui"/>
                             <constraint firstItem="per-lL-JNN" firstAttribute="top" secondItem="3FU-jO-gdV" secondAttribute="top" constant="100" id="o18-e7-11o"/>
+                            <constraint firstItem="3FU-jO-gdV" firstAttribute="trailing" secondItem="wRw-vi-2pn" secondAttribute="trailing" constant="40" id="wve-dZ-eyk"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="3FU-jO-gdV"/>
                     </view>
                     <connections>
+                        <outlet property="counterLabel" destination="HEx-y1-EXZ" id="Uro-kg-puq"/>
+                        <outlet property="counterValueLabel" destination="caK-Cy-e9U" id="pTc-Y2-0AK"/>
                         <outlet property="descriptionLabel" destination="85I-nU-f9m" id="fUL-9g-RJ0"/>
                         <outlet property="versionLabel" destination="846-CP-edz" id="Lik-f8-1XB"/>
                     </connections>

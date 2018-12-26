@@ -64,6 +64,7 @@
                     </view>
                     <connections>
                         <outlet property="diceView" destination="dE9-H1-0TR" id="hth-Yf-Yaq"/>
+                        <outlet property="refreshButton" destination="y9l-4s-KYz" id="aKe-pe-q55"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -10,6 +10,9 @@ import UIKit
 
 class AboutViewController: UIViewController {
 
+    @IBOutlet weak var versionLabel: UILabel!
+    @IBOutlet weak var descriptionLabel: UILabel!
+    
     @IBAction func closeAction(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
@@ -17,7 +20,23 @@ class AboutViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        let appName = infoString(key: "CFBundleName") ?? "app_name".localized
+        let shortVersion = infoString(key: "CFBundleShortVersionString") ?? ""
+        var bundlePart = ""
+        if let bundleVersion = infoString(key: "CFBundleVersion") {
+            bundlePart = "(\(bundleVersion))"
+        }
+        
+        versionLabel.text = "\(appName) \(shortVersion) \(bundlePart)"
+        descriptionLabel.text = "description".localized
+    }
+    
+    private func infoString(key: String) -> String? {
+        if let infoDictionary = Bundle.main.infoDictionary {
+            return infoDictionary[key] as? String
+        }
+        
+        return nil
     }
 
 }

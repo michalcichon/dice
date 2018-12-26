@@ -15,6 +15,8 @@
 		90C3698A21D29F1300854988 /* DiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C3698921D29F1300854988 /* DiceTests.swift */; };
 		90C3699521D2B3A900854988 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C3699421D2B3A900854988 /* AboutViewController.swift */; };
 		90C3699921D2CA2500854988 /* DiceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C3699821D2CA2500854988 /* DiceViewModel.swift */; };
+		90C3699B21D3959700854988 /* Localizables.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90C3699A21D3959700854988 /* Localizables.strings */; };
+		90C3699D21D3963200854988 /* String+DiceCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C3699C21D3963200854988 /* String+DiceCommon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		90C3698B21D29F1300854988 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90C3699421D2B3A900854988 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		90C3699821D2CA2500854988 /* DiceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceViewModel.swift; sourceTree = "<group>"; };
+		90C3699A21D3959700854988 /* Localizables.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizables.strings; sourceTree = "<group>"; };
+		90C3699C21D3963200854988 /* String+DiceCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+DiceCommon.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 				90C3697D21D29F1300854988 /* LaunchScreen.storyboard */,
 				90C3698021D29F1300854988 /* Info.plist */,
 				90C3699821D2CA2500854988 /* DiceViewModel.swift */,
+				90C3699A21D3959700854988 /* Localizables.strings */,
+				90C3699C21D3963200854988 /* String+DiceCommon.swift */,
 			);
 			path = Dice;
 			sourceTree = "<group>";
@@ -184,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90C3697F21D29F1300854988 /* LaunchScreen.storyboard in Resources */,
+				90C3699B21D3959700854988 /* Localizables.strings in Resources */,
 				90C3697C21D29F1300854988 /* Assets.xcassets in Resources */,
 				90C3697A21D29F1100854988 /* Main.storyboard in Resources */,
 			);
@@ -205,6 +212,7 @@
 			files = (
 				90C3699521D2B3A900854988 /* AboutViewController.swift in Sources */,
 				90C3697721D29F1100854988 /* DiceViewController.swift in Sources */,
+				90C3699D21D3963200854988 /* String+DiceCommon.swift in Sources */,
 				90C3697521D29F1100854988 /* AppDelegate.swift in Sources */,
 				90C3699921D2CA2500854988 /* DiceViewModel.swift in Sources */,
 			);

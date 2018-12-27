@@ -60,7 +60,7 @@ class DiceViewController: UIViewController {
     private func userRefreshHandled() {
         refresh()
         refreshBackgroundColor()
-        StatService.shared.increaseCounter()
+        StatService.shared.increaseGlobalCounter()
         makeHapticFeedback()
     }
     

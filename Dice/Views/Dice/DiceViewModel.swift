@@ -17,12 +17,19 @@ enum DiceResult: Int {
     case six = 5
 }
 
+extension DiceResult: CustomStringConvertible {
+    var description: String {
+        return String(rawValue)
+    }
+}
+
 class DiceViewModel {
     
     lazy public var result: DiceResult = randResult()
     
     public func roll() {
         result = randResult()
+        StatService.shared.increaseValueCounter(result: result)
     }
     
     private func randResult() -> DiceResult {

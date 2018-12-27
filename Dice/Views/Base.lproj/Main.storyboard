@@ -49,6 +49,15 @@
                                     <constraint firstAttribute="width" secondItem="dE9-H1-0TR" secondAttribute="height" multiplier="1:1" id="BuR-Lr-e0e"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hEX-uf-zQP">
+                                <rect key="frame" x="243" y="52" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="mGz-6a-7YI"/>
+                                    <constraint firstAttribute="height" constant="40" id="zof-Br-4so"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="two-dice-icon"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.77254901960784317" blue="0.23137254901960785" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -58,6 +67,8 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Rsd-z0-4A0" secondAttribute="trailing" constant="32" id="KHA-Xi-SkF"/>
                             <constraint firstItem="dE9-H1-0TR" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Li2-Wy-6NR"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dE9-H1-0TR" secondAttribute="trailing" constant="32" id="Vna-gD-01W"/>
+                            <constraint firstItem="hEX-uf-zQP" firstAttribute="centerY" secondItem="Rsd-z0-4A0" secondAttribute="centerY" id="hmw-b5-tmq"/>
+                            <constraint firstItem="Rsd-z0-4A0" firstAttribute="leading" secondItem="hEX-uf-zQP" secondAttribute="trailing" constant="20" id="jLO-fq-Cfj"/>
                             <constraint firstItem="y9l-4s-KYz" firstAttribute="top" relation="greaterThanOrEqual" secondItem="dE9-H1-0TR" secondAttribute="bottom" constant="50" id="kgL-0I-JfO"/>
                             <constraint firstItem="y9l-4s-KYz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rR5-h1-aer"/>
                         </constraints>
@@ -192,5 +203,6 @@
         <image name="close-icon" width="38" height="38"/>
         <image name="info-icon" width="64" height="64"/>
         <image name="refresh-icon" width="384" height="384"/>
+        <image name="two-dice-icon" width="64" height="64"/>
     </resources>
 </document>

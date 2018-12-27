@@ -31,7 +31,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y9l-4s-KYz" customClass="ShrinkButton" customModule="Dice" customModuleProvider="target">
-                                <rect key="frame" x="147.5" y="523" width="80" height="80"/>
+                                <rect key="frame" x="147.5" y="539" width="80" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="80" id="MJ1-Di-Wyx"/>
                                     <constraint firstAttribute="height" constant="80" id="zeH-OR-eGs"/>
@@ -54,10 +54,11 @@
                         <constraints>
                             <constraint firstItem="dE9-H1-0TR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="1fd-4v-03y"/>
                             <constraint firstItem="Rsd-z0-4A0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="72m-Hn-Pqv"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="y9l-4s-KYz" secondAttribute="bottom" constant="64" id="Dtu-VS-OfL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="y9l-4s-KYz" secondAttribute="bottom" priority="750" constant="64" id="Dtu-VS-OfL"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Rsd-z0-4A0" secondAttribute="trailing" constant="32" id="KHA-Xi-SkF"/>
                             <constraint firstItem="dE9-H1-0TR" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Li2-Wy-6NR"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dE9-H1-0TR" secondAttribute="trailing" constant="32" id="Vna-gD-01W"/>
+                            <constraint firstItem="y9l-4s-KYz" firstAttribute="top" relation="greaterThanOrEqual" secondItem="dE9-H1-0TR" secondAttribute="bottom" constant="50" id="kgL-0I-JfO"/>
                             <constraint firstItem="y9l-4s-KYz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rR5-h1-aer"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

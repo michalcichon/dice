@@ -12,13 +12,7 @@ class DiceView: UIView {
     
     private var radius: CGFloat {
         get {
-            if UIScreen.main.bounds.width < 350 {
-                return 20
-            } else if UIScreen.main.bounds.width < 400 {
-                return 25
-            } else {
-                return 30
-            }
+            return bounds.width * 0.08
         }
     }
     private let color:  CGColor = UIColor.white.cgColor
@@ -109,7 +103,6 @@ class DiceView: UIView {
         circleI = makeCircle(x: bounds.width - 2 * radius, y: radius)
         circleJ = makeCircle(x: bounds.width - 2 * radius, y: bounds.midY)
         circleK = makeCircle(x: bounds.width - 2 * radius, y: bounds.height - radius)
-        
     }
 
 }

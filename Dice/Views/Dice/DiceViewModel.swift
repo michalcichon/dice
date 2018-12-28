@@ -25,16 +25,32 @@ extension DiceResult: CustomStringConvertible {
 
 class DiceViewModel {
     
+    private let kSingleDieModeKey = "kSingleDieMode"
+    
     lazy public var result: DiceResult = randResult()
     lazy public var resultRight: DiceResult = randResult()
     lazy public var resultLeft: DiceResult = randResult()
-    public var twoDiceEnabled: Bool = false
+    public var singleDieMode: Bool {
+        get {
+            let value = UserDefaults.standard.bool(forKey: kSingleDieModeKey)
+            if value {
+                print("singleDieMode: true")
+            } else {
+                print("singleDieMode: false")
+            }
+            return value
+        }
+        
+        set {
+            UserDefaults.standard.set(newValue, forKey: kSingleDieModeKey)
+        }
+    }
     
     public func roll() {
-        if twoDiceEnabled {
-            rollTwoDice()
-        } else {
+        if singleDieMode {
             rollOneDie()
+        } else {
+            rollTwoDice()
         }
     }
     

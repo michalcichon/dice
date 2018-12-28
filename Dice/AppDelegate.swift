@@ -19,5 +19,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Fabric.with([Crashlytics.self])
         return true
     }
+    
+    func applicationWillTerminate(_ application: UIApplication) {
+        UserDefaults.standard.synchronize()
+    }
 }
 

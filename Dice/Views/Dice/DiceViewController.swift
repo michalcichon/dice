@@ -37,7 +37,8 @@ class DiceViewController: UIViewController {
         view.addGestureRecognizer(tapGesture)
         prepareHaptic()
         becomeFirstResponder()
-        refresh()
+        rollDice()
+        refreshDiceToggle()
     }
     
     override var canBecomeFirstResponder: Bool {
@@ -57,18 +58,8 @@ class DiceViewController: UIViewController {
     }
     
     @IBAction func toggleTwoDice(_ sender: Any) {
-        viewModel.twoDiceEnabled = !viewModel.twoDiceEnabled
-        if viewModel.twoDiceEnabled {
-            rightSmallDiceContainerView.isHidden = false
-            leftSmallDiceContainerView.isHidden = false
-            diceView.isHidden = true
-            twoDiceButton.alpha = 1.0
-        } else {
-            rightSmallDiceContainerView.isHidden = true
-            leftSmallDiceContainerView.isHidden = true
-            diceView.isHidden = false
-            twoDiceButton.alpha = 0.5
-        }
+        viewModel.singleDieMode = !viewModel.singleDieMode
+        refreshDiceViewVisibility()
     }
     
     @objc private func tapOnView() {
@@ -80,17 +71,18 @@ class DiceViewController: UIViewController {
     }
     
     private func userRefreshHandled() {
-        refresh()
+        rollDice()
         refreshBackgroundColor()
         StatService.shared.increaseGlobalCounter()
         makeHapticFeedback()
     }
     
-    private func refresh() {
+    private func rollDice() {
         viewModel.roll()
         diceView.result = viewModel.result
         leftSmallDiceView.result = viewModel.resultLeft
         rightSmallDiceView.result = viewModel.resultRight
+        refreshDiceViewVisibility()
     }
     
     private func refreshBackgroundColor() {
@@ -102,6 +94,28 @@ class DiceViewController: UIViewController {
             }
             self.view.backgroundColor = nextColor
         }, completion:nil)
+    }
+    
+    private func refreshDiceToggle() {
+        if viewModel.singleDieMode {
+            twoDiceButton.alpha = 0.5
+        } else {
+            twoDiceButton.alpha = 1.0
+        }
+    }
+    
+    private func refreshDiceViewVisibility() {
+        if viewModel.singleDieMode {
+            rightSmallDiceContainerView.isHidden = true
+            leftSmallDiceContainerView.isHidden = true
+            diceView.isHidden = false
+        } else {
+            rightSmallDiceContainerView.isHidden = false
+            leftSmallDiceContainerView.isHidden = false
+            diceView.isHidden = true
+        }
+        
+        refreshDiceToggle()
     }
     
     // MARK: Haptic generator

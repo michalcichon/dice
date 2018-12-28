@@ -14,7 +14,14 @@ class DiceViewController: UIViewController {
     private let feedbackGenerator = UIImpactFeedbackGenerator(style: .light)
     
     @IBOutlet weak var diceView: DiceView!
+    @IBOutlet weak var rightSmallDiceView: DiceView!
+    @IBOutlet weak var leftSmallDiceView: DiceView!
+    
+    @IBOutlet weak var rightSmallDiceContainerView: UIView!
+    @IBOutlet weak var leftSmallDiceContainerView: UIView!
+    
     @IBOutlet weak var refreshButton: ShrinkButton!
+    @IBOutlet weak var twoDiceButton: UIButton!
     
     private var viewModel = DiceViewModel()
     
@@ -49,6 +56,21 @@ class DiceViewController: UIViewController {
         userRefreshHandled()
     }
     
+    @IBAction func toggleTwoDice(_ sender: Any) {
+        viewModel.twoDiceEnabled = !viewModel.twoDiceEnabled
+        if viewModel.twoDiceEnabled {
+            rightSmallDiceContainerView.isHidden = false
+            leftSmallDiceContainerView.isHidden = false
+            diceView.isHidden = true
+            twoDiceButton.alpha = 1.0
+        } else {
+            rightSmallDiceContainerView.isHidden = true
+            leftSmallDiceContainerView.isHidden = true
+            diceView.isHidden = false
+            twoDiceButton.alpha = 0.5
+        }
+    }
+    
     @objc private func tapOnView() {
         refreshButton.didPress()
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.1) {
@@ -67,6 +89,8 @@ class DiceViewController: UIViewController {
     private func refresh() {
         viewModel.roll()
         diceView.result = viewModel.result
+        leftSmallDiceView.result = viewModel.resultLeft
+        rightSmallDiceView.result = viewModel.resultRight
     }
     
     private func refreshBackgroundColor() {

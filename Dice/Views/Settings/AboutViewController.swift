@@ -14,6 +14,7 @@ class AboutViewController: UIViewController {
     @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var counterLabel: UILabel!
     @IBOutlet weak var counterValueLabel: UILabel!
+    @IBOutlet weak var visitWebsiteButton: UIButton!
     
     @IBAction func closeAction(_ sender: Any) {
         dismiss(animated: true, completion: nil)
@@ -39,6 +40,7 @@ class AboutViewController: UIViewController {
         descriptionLabel.text = "description".localized
         counterLabel.text = "settings_counter".localized
         counterValueLabel.text = String(StatService.shared.globalCounter)
+        visitWebsiteButton.setTitle("settings_author".localized, for: .normal)
     }
     
     private func infoString(key: String) -> String? {

@@ -26,9 +26,27 @@ extension DiceResult: CustomStringConvertible {
 class DiceViewModel {
     
     lazy public var result: DiceResult = randResult()
+    lazy public var resultRight: DiceResult = randResult()
+    lazy public var resultLeft: DiceResult = randResult()
+    public var twoDiceEnabled: Bool = false
     
     public func roll() {
+        if twoDiceEnabled {
+            rollTwoDice()
+        } else {
+            rollOneDie()
+        }
+    }
+    
+    private func rollOneDie() {
         result = randResult()
+        StatService.shared.increaseValueCounter(result: result)
+    }
+    
+    public func rollTwoDice() {
+        resultRight = randResult()
+        StatService.shared.increaseValueCounter(result: result)
+        resultLeft = randResult()
         StatService.shared.increaseValueCounter(result: result)
     }
     

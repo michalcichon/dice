@@ -10,7 +10,7 @@ import UIKit
 
 class DiceViewController: UIViewController {
 
-    private let colors = [#colorLiteral(red: 0, green: 0.7725490196, blue: 0.231372549, alpha: 1), #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1), #colorLiteral(red: 0.3647058904, green: 0.06666667014, blue: 0.9686274529, alpha: 1), #colorLiteral(red: 0.9411764706, green: 0.4862745098, blue: 0.1960784314, alpha: 1), #colorLiteral(red: 0, green: 0.4784313725, blue: 1, alpha: 1), #colorLiteral(red: 0.4235294118, green: 0.2509803922, blue: 0.1333333333, alpha: 1), #colorLiteral(red: 0.9568627451, green: 0.1019607843, blue: 0.1921568627, alpha: 1)]
+    private let colors = [#colorLiteral(red: 0, green: 0.7725490196, blue: 0.231372549, alpha: 1), #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1), #colorLiteral(red: 0.3647058904, green: 0.06666667014, blue: 0.9686274529, alpha: 1), #colorLiteral(red: 0.9843137255, green: 0.3725490196, blue: 0.1254901961, alpha: 1), #colorLiteral(red: 0, green: 0.4784313725, blue: 1, alpha: 1), #colorLiteral(red: 0.4235294118, green: 0.2509803922, blue: 0.1333333333, alpha: 1), #colorLiteral(red: 0.8467822075, green: 0.127263248, blue: 0.2581181526, alpha: 1)]
     private let feedbackGenerator = UIImpactFeedbackGenerator(style: .light)
     
     @IBOutlet weak var diceView: DiceView!

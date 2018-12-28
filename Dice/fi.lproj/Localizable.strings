@@ -9,4 +9,5 @@
 "app_name" = "Noppa";
 "description" = "Napauta tai ravista rullaa noppaa!";
 "settings_counter" = "Laskuri";
-"settings_author" = "Käy kirjoittajan verkkosivuilla";
+"settings_privacy_policy" = "Tietosuojakäytäntö";
+"settings_privacy_policy_url" = "http://michalcichon.github.io/dice-privacy-policy/fi.html";

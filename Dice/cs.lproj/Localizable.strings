@@ -1,0 +1,13 @@
+/* 
+  Localizables.strings
+  Dice
+
+  Created by Michał Cichoń on 26/12/2018.
+  Copyright © 2018 Michal Cichon. All rights reserved.
+*/
+
+"app_name" = "Kostky";
+"description" = "Klepnutím nebo protřepáním klepnete na kostky!";
+"settings_counter" = "Čelit";
+"settings_privacy_policy" = "Zásady ochrany osobních údajů";
+"settings_privacy_policy_url" = "http://michalcichon.github.io/dice-privacy-policy/cz.html";

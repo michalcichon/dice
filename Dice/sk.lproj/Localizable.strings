@@ -1,0 +1,13 @@
+/* 
+  Localizables.strings
+  Dice
+
+  Created by Michał Cichoń on 26/12/2018.
+  Copyright © 2018 Michal Cichon. All rights reserved.
+*/
+
+"app_name" = "Kocky";
+"description" = "Ťuknutím alebo trepaním sa hodí kocky!";
+"settings_counter" = "Pult";
+"settings_privacy_policy" = "Zásady ochrany osobných údajov";
+"settings_privacy_policy_url" = "http://michalcichon.github.io/dice-privacy-policy/sk.html";

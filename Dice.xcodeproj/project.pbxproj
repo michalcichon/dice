@@ -36,6 +36,14 @@
 
 /* Begin PBXFileReference section */
 		64FF3FBAA56840C2A4EC119A /* Pods_Dice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		900C9D9121D698CC00BD738A /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Localizable.strings; sourceTree = "<group>"; };
+		900C9D9221D698CC00BD738A /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		900C9D9321D698D500BD738A /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		900C9D9421D698D500BD738A /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		900C9D9521D698E500BD738A /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/Localizable.strings; sourceTree = "<group>"; };
+		900C9D9621D698E500BD738A /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		900C9D9721D698EC00BD738A /* hr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hr; path = hr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		900C9D9821D698EC00BD738A /* hr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hr; path = hr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9018D63B21D3BDFC009F6021 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9018D63E21D3BFEF009F6021 /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
 		90245D0521D410A5007E6129 /* ShrinkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShrinkButton.swift; sourceTree = "<group>"; };
@@ -288,6 +296,10 @@
 				da,
 				fi,
 				sv,
+				cs,
+				sk,
+				ro,
+				hr,
 			);
 			mainGroup = 90C3696821D29F1100854988;
 			productRefGroup = 90C3697221D29F1100854988 /* Products */;
@@ -409,6 +421,10 @@
 				90245D1121D428CD007E6129 /* da */,
 				90245D1221D42907007E6129 /* fi */,
 				90245D1321D42932007E6129 /* sv */,
+				900C9D9121D698CC00BD738A /* cs */,
+				900C9D9321D698D500BD738A /* sk */,
+				900C9D9521D698E500BD738A /* ro */,
+				900C9D9721D698EC00BD738A /* hr */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -427,6 +443,10 @@
 				90245D2021D42C07007E6129 /* da */,
 				90245D2121D42C08007E6129 /* fi */,
 				90245D2221D42C09007E6129 /* sv */,
+				900C9D9221D698CC00BD738A /* cs */,
+				900C9D9421D698D500BD738A /* sk */,
+				900C9D9621D698E500BD738A /* ro */,
+				900C9D9821D698EC00BD738A /* hr */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";

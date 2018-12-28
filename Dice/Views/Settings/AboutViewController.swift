@@ -21,7 +21,7 @@ class AboutViewController: UIViewController {
     }
     
     @IBAction func visitWebsite(_ sender: Any) {
-        if let url = URL(string: "https://michalcichon.github.io") {
+        if let url = URL(string: "settings_privacy_policy_url".localized) {
             UIApplication.shared.open(url, options: [:], completionHandler: nil)
         }
     }
@@ -40,7 +40,7 @@ class AboutViewController: UIViewController {
         descriptionLabel.text = "description".localized
         counterLabel.text = "settings_counter".localized
         counterValueLabel.text = String(StatService.shared.globalCounter)
-        visitWebsiteButton.setTitle("settings_author".localized, for: .normal)
+        visitWebsiteButton.setTitle("settings_privacy_policy".localized, for: .normal)
     }
     
     private func infoString(key: String) -> String? {

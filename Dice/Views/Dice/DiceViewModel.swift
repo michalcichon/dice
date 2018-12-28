@@ -32,13 +32,7 @@ class DiceViewModel {
     lazy public var resultLeft: DiceResult = randResult()
     public var singleDieMode: Bool {
         get {
-            let value = UserDefaults.standard.bool(forKey: kSingleDieModeKey)
-            if value {
-                print("singleDieMode: true")
-            } else {
-                print("singleDieMode: false")
-            }
-            return value
+            return UserDefaults.standard.bool(forKey: kSingleDieModeKey)
         }
         
         set {

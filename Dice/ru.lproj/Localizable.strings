@@ -9,4 +9,5 @@
 "app_name" = "Игральная кость";
 "description" = "Нажмите или встряхните, чтобы бросить кости!";
 "settings_counter" = "счетчик";
-"settings_author" = "Посетите сайт автора";
+"settings_privacy_policy" = "политика конфиденциальности";
+"settings_privacy_policy_url" = "http://michalcichon.github.io/dice-privacy-policy/ru.html";

@@ -7,6 +7,7 @@
 */
 
 "app_name" = "Кістки";
-"description" = "Натисніть або струсіть, щоб кинути кістки!";
+"description" = "Торкніться або струсніть, щоб кинути кістки!";
 "settings_counter" = "Лічильник";
-"settings_author" = "Відвідайте веб-сайт автора";
+"settings_privacy_policy" = "Політика конфіденційності";
+"settings_privacy_policy_url" = "http://michalcichon.github.io/dice-privacy-policy/ua.html";

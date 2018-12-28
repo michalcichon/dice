@@ -7,6 +7,7 @@
 */
 
 "app_name" = "Dice";
-"description" = "Tap or shake to roll a dice!";
+"description" = "Tap or shake to roll the dice!";
 "settings_counter" = "Counter";
-"settings_author" = "Visit the author's website";
+"settings_privacy_policy" = "Privacy Policy";
+"settings_privacy_policy_url" = "http://michalcichon.github.io/dice-privacy-policy/en.html";

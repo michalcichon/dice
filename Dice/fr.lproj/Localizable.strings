@@ -7,6 +7,7 @@
 */
 
 "app_name" = "Dé";
-"description" = "Appuyez ou secouez pour lancer un dé !";
+"description" = "Appuyez ou secouez pour lancer les dés !";
 "settings_counter" = "Compteur";
-"settings_author" = "Visitez le site de l'auteur";
+"settings_privacy_policy" = "Politique de confidentialité";
+"settings_privacy_policy_url" = "http://michalcichon.github.io/dice-privacy-policy/fr.html";

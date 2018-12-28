@@ -1,0 +1,13 @@
+/* 
+  Localizables.strings
+  Dice
+
+  Created by Michał Cichoń on 26/12/2018.
+  Copyright © 2018 Michal Cichon. All rights reserved.
+*/
+
+"app_name" = "Kocke";
+"description" = "Kucnite ili protresite da bacite kockice!";
+"settings_counter" = "Brojač";
+"settings_privacy_policy" = "Pravila o privatnosti";
+"settings_privacy_policy_url" = "http://michalcichon.github.io/dice-privacy-policy/cs.html";

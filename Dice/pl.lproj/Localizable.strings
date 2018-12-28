@@ -9,4 +9,5 @@
 "app_name" = "Kostka";
 "description" = "Kliknij lub potrząśnij aby rzucić kostką!";
 "settings_counter" = "Licznik";
-"settings_author" = "Przejdź do strony autora";
+"settings_privacy_policy" = "Polityka Prywatności";
+"settings_privacy_policy_url" = "http://michalcichon.github.io/dice-privacy-policy/pl.html";

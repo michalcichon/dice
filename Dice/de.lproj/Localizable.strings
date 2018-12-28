@@ -7,6 +7,7 @@
 */
 
 "app_name" = "Würfel";
-"description" = "Tippen oder schütteln, um einen Würfel zu werfen!";
+"description" = "Tippen oder schütteln, um zu würfeln!";
 "settings_counter" = "Zähler";
-"settings_author" = "Besuchen Sie die Website des Autors";
+"settings_privacy_policy" = "Datenschutz-Bestimmungen";
+"settings_privacy_policy_url" = "http://michalcichon.github.io/dice-privacy-policy/de.html";

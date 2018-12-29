@@ -33,10 +33,10 @@ class AboutViewController: UIViewController {
         let shortVersion = infoString(key: "CFBundleShortVersionString") ?? ""
         var bundlePart = ""
         if let bundleVersion = infoString(key: "CFBundleVersion") {
-            bundlePart = "_\(bundleVersion)"
+            bundlePart = "(\(bundleVersion))"
         }
         
-        versionLabel.text = "\(appName) \(shortVersion)\(bundlePart)"
+        versionLabel.text = "\(appName) \(shortVersion) \(bundlePart)"
         descriptionLabel.text = "description".localized
         counterLabel.text = "settings_counter".localized
         counterValueLabel.text = String(StatService.shared.globalCounter)

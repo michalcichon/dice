@@ -6,7 +6,7 @@
 //  Copyright © 2018 Michal Cichon. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 class SettingsService {
     
@@ -21,6 +21,7 @@ class SettingsService {
         
         set {
             UserDefaults.standard.set(newValue, forKey: kDimmingEnabled)
+            UIApplication.shared.isIdleTimerDisabled = !newValue
         }
     }
     

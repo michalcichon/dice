@@ -54,6 +54,18 @@
                                     <action selector="toggleTwoDice:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pp6-uc-jgj"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7is-wR-i5s">
+                                <rect key="frame" x="183" y="52" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="mTS-vg-Vrt"/>
+                                    <constraint firstAttribute="height" constant="40" id="zAt-go-nyq"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button" image="bulb-icon"/>
+                                <connections>
+                                    <action selector="bulbAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4ch-ec-KxN"/>
+                                </connections>
+                            </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dE9-H1-0TR" userLabel="Dice View One" customClass="DiceView" customModule="Dice" customModuleProvider="target">
                                 <rect key="frame" x="32" y="178" width="311" height="311"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -116,10 +128,12 @@
                             <constraint firstItem="Rsd-z0-4A0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="72m-Hn-Pqv"/>
                             <constraint firstItem="IP7-J2-w6w" firstAttribute="top" secondItem="dE9-H1-0TR" secondAttribute="top" id="AQn-df-O36"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="y9l-4s-KYz" secondAttribute="bottom" priority="750" constant="64" id="Dtu-VS-OfL"/>
+                            <constraint firstItem="7is-wR-i5s" firstAttribute="centerY" secondItem="hEX-uf-zQP" secondAttribute="centerY" id="Gwu-yi-Q5d"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Rsd-z0-4A0" secondAttribute="trailing" constant="32" id="KHA-Xi-SkF"/>
                             <constraint firstItem="dE9-H1-0TR" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Li2-Wy-6NR"/>
                             <constraint firstItem="oVP-xh-lZq" firstAttribute="width" secondItem="dE9-H1-0TR" secondAttribute="height" multiplier="1:2" id="SG5-Ef-cnf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dE9-H1-0TR" secondAttribute="trailing" constant="32" id="Vna-gD-01W"/>
+                            <constraint firstItem="hEX-uf-zQP" firstAttribute="leading" secondItem="7is-wR-i5s" secondAttribute="trailing" constant="20" id="Xb2-Gn-vC2"/>
                             <constraint firstItem="hEX-uf-zQP" firstAttribute="centerY" secondItem="Rsd-z0-4A0" secondAttribute="centerY" id="hmw-b5-tmq"/>
                             <constraint firstItem="Rsd-z0-4A0" firstAttribute="leading" secondItem="hEX-uf-zQP" secondAttribute="trailing" constant="20" id="jLO-fq-Cfj"/>
                             <constraint firstItem="y9l-4s-KYz" firstAttribute="top" relation="greaterThanOrEqual" secondItem="dE9-H1-0TR" secondAttribute="bottom" constant="50" id="kgL-0I-JfO"/>
@@ -132,6 +146,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="bulbButton" destination="7is-wR-i5s" id="AJf-4Q-x8o"/>
                         <outlet property="diceView" destination="dE9-H1-0TR" id="hth-Yf-Yaq"/>
                         <outlet property="leftSmallDiceContainerView" destination="oVP-xh-lZq" id="wUL-gf-aBi"/>
                         <outlet property="leftSmallDiceView" destination="Qwu-6Z-JCn" id="nOZ-PX-goE"/>
@@ -265,6 +280,7 @@
     </scenes>
     <resources>
         <image name="Logo" width="300" height="300"/>
+        <image name="bulb-icon" width="65" height="65"/>
         <image name="close-icon" width="38" height="38"/>
         <image name="external-icon" width="16" height="16"/>
         <image name="info-icon" width="64" height="64"/>

@@ -40,6 +40,16 @@ class DiceViewModel {
         }
     }
     
+    public var dimmingEnabled: Bool {
+        get {
+            return SettingsService.shared.dimmingEnabled
+        }
+        
+        set {
+            SettingsService.shared.dimmingEnabled = newValue
+        }
+    }
+    
     public func roll() {
         if singleDieMode {
             rollOneDie()

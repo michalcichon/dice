@@ -22,6 +22,7 @@ class DiceViewController: UIViewController {
     
     @IBOutlet weak var refreshButton: ShrinkButton!
     @IBOutlet weak var twoDiceButton: UIButton!
+    @IBOutlet weak var bulbButton: UIButton!
     
     private var viewModel = DiceViewModel()
     
@@ -39,6 +40,7 @@ class DiceViewController: UIViewController {
         becomeFirstResponder()
         rollDice()
         refreshDiceToggle()
+        refreshBulbToggle()
     }
     
     override var canBecomeFirstResponder: Bool {
@@ -60,6 +62,11 @@ class DiceViewController: UIViewController {
     @IBAction func toggleTwoDice(_ sender: Any) {
         viewModel.singleDieMode = !viewModel.singleDieMode
         refreshDiceViewVisibility()
+    }
+    
+    @IBAction func bulbAction(_ sender: Any) {
+        viewModel.dimmingEnabled = !viewModel.dimmingEnabled
+        refreshBulbToggle()
     }
     
     @objc private func tapOnView() {
@@ -101,6 +108,14 @@ class DiceViewController: UIViewController {
             twoDiceButton.alpha = 0.5
         } else {
             twoDiceButton.alpha = 1.0
+        }
+    }
+    
+    private func refreshBulbToggle() {
+        if viewModel.dimmingEnabled {
+            bulbButton.alpha = 0.5
+        } else {
+            bulbButton.alpha = 1.0
         }
     }
     

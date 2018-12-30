@@ -7,7 +7,7 @@
 */
 
 "app_name" = "Terninger";
-"description" = "Tryk eller ryste for at rulle terningerne!";
+"description" = "Tryk eller ryste for at rulle terninger!";
 "settings_counter" = "Skranke";
 "settings_privacy_policy" = "Fortrolighedspolitik";
 "settings_privacy_policy_url" = "http://michalcichon.github.io/dice-privacy-policy/da.html";

@@ -7,7 +7,7 @@
 */
 
 "app_name" = "Tärningar";
-"description" = "PPeka eller skaka för att rulla tärningarna!";
+"description" = "Peka eller skaka för att rulla tärningar!";
 "settings_counter" = "Disken";
 "settings_privacy_policy" = "Integritetspolicy";
 "settings_privacy_policy_url" = "http://michalcichon.github.io/dice-privacy-policy/sv.html";

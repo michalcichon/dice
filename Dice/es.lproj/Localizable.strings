@@ -7,7 +7,7 @@
 */
 
 "app_name" = "Dado";
-"description" = "¡Toca o sacude para tirar los dados!";
+"description" = "Toca o sacude para lanzar un dado!";
 "settings_counter" = "Mostrador";
 "settings_privacy_policy" = "Política de privacidad";
 "settings_privacy_policy_url" = "http://michalcichon.github.io/dice-privacy-policy/es.html";

@@ -7,7 +7,7 @@
 */
 
 "app_name" = "Dadi";
-"description" = "Tocca o agita per tirare i dadi!";
+"description" = "Tocca o scuoti per tirare un dado!";
 "settings_counter" = "Contatore";
 "settings_privacy_policy" = "Leggi l'informativa sulla privacya";
 "settings_privacy_policy_url" = "http://michalcichon.github.io/dice-privacy-policy/it.html";

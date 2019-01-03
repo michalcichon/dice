@@ -13,6 +13,7 @@
 		90245D0921D421BF007E6129 /* StatService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90245D0821D421BF007E6129 /* StatService.swift */; };
 		90245D1621D42BFA007E6129 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90245D1821D42BFA007E6129 /* InfoPlist.strings */; };
 		9064087D21D7C6560021C226 /* SettingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9064087C21D7C6560021C226 /* SettingsService.swift */; };
+		909957A821DEC13D003D5E8E /* EventsLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909957A721DEC13D003D5E8E /* EventsLogger.swift */; };
 		90C3697521D29F1100854988 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C3697421D29F1100854988 /* AppDelegate.swift */; };
 		90C3697721D29F1100854988 /* DiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C3697621D29F1100854988 /* DiceViewController.swift */; };
 		90C3697A21D29F1100854988 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90C3697821D29F1100854988 /* Main.storyboard */; };
@@ -71,6 +72,7 @@
 		90245D2121D42C08007E6129 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		90245D2221D42C09007E6129 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9064087C21D7C6560021C226 /* SettingsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsService.swift; sourceTree = "<group>"; };
+		909957A721DEC13D003D5E8E /* EventsLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsLogger.swift; sourceTree = "<group>"; };
 		90C3697121D29F1100854988 /* Dice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90C3697421D29F1100854988 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90C3697621D29F1100854988 /* DiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceViewController.swift; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 			children = (
 				90245D0821D421BF007E6129 /* StatService.swift */,
 				9064087C21D7C6560021C226 /* SettingsService.swift */,
+				909957A721DEC13D003D5E8E /* EventsLogger.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -384,6 +387,7 @@
 				90C3699521D2B3A900854988 /* AboutViewController.swift in Sources */,
 				90245D0921D421BF007E6129 /* StatService.swift in Sources */,
 				9018D63F21D3BFEF009F6021 /* DiceView.swift in Sources */,
+				909957A821DEC13D003D5E8E /* EventsLogger.swift in Sources */,
 				90C3697721D29F1100854988 /* DiceViewController.swift in Sources */,
 				90C3699D21D3963200854988 /* String+DiceCommon.swift in Sources */,
 				90C3697521D29F1100854988 /* AppDelegate.swift in Sources */,

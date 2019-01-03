@@ -57,16 +57,19 @@ class DiceViewController: UIViewController {
 
     @IBAction func refreshAction(_ sender: Any) {
         userRefreshHandled()
+        EventsLogger.shared.logRollByButtonTap()
     }
     
     @IBAction func toggleTwoDice(_ sender: Any) {
         viewModel.singleDieMode = !viewModel.singleDieMode
         refreshDiceViewVisibility()
+        EventsLogger.shared.logTwoDiceToggle(on: !viewModel.singleDieMode)
     }
     
     @IBAction func bulbAction(_ sender: Any) {
         viewModel.dimmingEnabled = !viewModel.dimmingEnabled
         refreshBulbToggle()
+        EventsLogger.shared.logPreventDimmingToggle(on: !viewModel.dimmingEnabled)
     }
     
     @objc private func tapOnView() {
@@ -75,6 +78,7 @@ class DiceViewController: UIViewController {
             self.refreshButton.didRelease()
         }
         userRefreshHandled()
+        EventsLogger.shared.logRollByScreenTap()
     }
     
     private func userRefreshHandled() {

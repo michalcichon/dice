@@ -52,12 +52,13 @@ class DiceViewController: UIViewController {
     override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
         if motion == .motionShake {
             userRefreshHandled()
+            EventsLogger.shared.logRollShake()
         }
     }
 
     @IBAction func refreshAction(_ sender: Any) {
         userRefreshHandled()
-        EventsLogger.shared.logRollByButtonTap()
+        EventsLogger.shared.logRollButtonTap()
     }
     
     @IBAction func toggleTwoDice(_ sender: Any) {
@@ -78,7 +79,7 @@ class DiceViewController: UIViewController {
             self.refreshButton.didRelease()
         }
         userRefreshHandled()
-        EventsLogger.shared.logRollByScreenTap()
+        EventsLogger.shared.logRollScreenTap()
     }
     
     private func userRefreshHandled() {

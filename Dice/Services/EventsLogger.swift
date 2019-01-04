@@ -37,12 +37,16 @@ class EventsLogger {
         logEvent(eventName: "PreventDimmingToggle", attributes: attributes)
     }
     
-    public func logRollByButtonTap() {
-        logEvent(eventName: "RollByButtonTap", attributes: nil)
+    public func logRollButtonTap() {
+        logEvent(eventName: "RollButtonTap", attributes: nil)
     }
     
-    public func logRollByScreenTap() {
-        logEvent(eventName: "RollByScreenTap", attributes: nil)
+    public func logRollScreenTap() {
+        logEvent(eventName: "RollScreenTap", attributes: nil)
+    }
+    
+    public func logRollShake() {
+        logEvent(eventName: "RollShake", attributes: nil)
     }
     
     // MARK: -

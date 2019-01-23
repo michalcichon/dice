@@ -65,9 +65,9 @@ class DiceViewModel {
     
     public func rollTwoDice() {
         resultRight = randResult()
-        StatService.shared.increaseValueCounter(result: result)
+        StatService.shared.increaseValueCounter(result: resultRight)
         resultLeft = randResult()
-        StatService.shared.increaseValueCounter(result: result)
+        StatService.shared.increaseValueCounter(result: resultLeft)
     }
     
     private func randResult() -> DiceResult {

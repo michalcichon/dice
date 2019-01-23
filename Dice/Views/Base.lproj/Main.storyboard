@@ -184,14 +184,14 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to roll or shake it!Tap to roll or shake it!Tap to roll or shake it!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="85I-nU-f9m">
-                                        <rect key="frame" x="43.666666666666657" y="329.66666666666669" width="327" height="40.666666666666686"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to roll or shake it!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="85I-nU-f9m">
+                                        <rect key="frame" x="125.33333333333333" y="329.66666666666669" width="163.66666666666669" height="20.333333333333314"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wRw-vi-2pn">
-                                        <rect key="frame" x="40" y="390.33333333333331" width="334" height="40"/>
+                                        <rect key="frame" x="40" y="370" width="334" height="40"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Counter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HEx-y1-EXZ">
                                                 <rect key="frame" x="10" y="11" width="58" height="18"/>
@@ -223,7 +223,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6mb-1M-jxl">
-                                        <rect key="frame" x="40" y="438.33333333333331" width="334" height="40"/>
+                                        <rect key="frame" x="40" y="418" width="334" height="40"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vlR-Py-stI">
                                                 <rect key="frame" x="10" y="10" width="20" height="20"/>
@@ -277,7 +277,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9cV-va-43R">
-                                        <rect key="frame" x="40" y="486.33333333333337" width="334" height="40"/>
+                                        <rect key="frame" x="40" y="466" width="334" height="40"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bCM-If-iw0">
                                                 <rect key="frame" x="10" y="10" width="20" height="20"/>
@@ -331,7 +331,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CvA-pp-b4k">
-                                        <rect key="frame" x="40" y="534.33333333333337" width="334" height="40"/>
+                                        <rect key="frame" x="40" y="514" width="334" height="40"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vfd-Nx-frX">
                                                 <rect key="frame" x="10" y="10" width="20" height="20"/>
@@ -385,7 +385,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GKv-sW-LLz">
-                                        <rect key="frame" x="40" y="582.33333333333337" width="334" height="40"/>
+                                        <rect key="frame" x="40" y="562" width="334" height="40"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2xf-0K-Cy8">
                                                 <rect key="frame" x="10" y="10" width="20" height="20"/>
@@ -439,7 +439,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YF7-Ta-AE9">
-                                        <rect key="frame" x="40" y="630.33333333333337" width="334" height="40"/>
+                                        <rect key="frame" x="40" y="610" width="334" height="40"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5AX-wJ-07Y">
                                                 <rect key="frame" x="10" y="10" width="20" height="20"/>
@@ -493,7 +493,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ezr-jN-bhe">
-                                        <rect key="frame" x="40" y="678.33333333333337" width="334" height="40"/>
+                                        <rect key="frame" x="40" y="658" width="334" height="40"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ynt-69-ArN">
                                                 <rect key="frame" x="10" y="10" width="20" height="20"/>
@@ -547,7 +547,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="koP-f5-5sd">
-                                        <rect key="frame" x="94.666666666666686" y="748.33333333333337" width="225" height="30"/>
+                                        <rect key="frame" x="94.666666666666686" y="728" width="225" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="9Gx-kK-nrF"/>
                                         </constraints>

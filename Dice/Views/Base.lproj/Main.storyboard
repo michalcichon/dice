@@ -206,7 +206,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.98431372549019602" green="0.98431372549019602" blue="0.95294117647058818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.97884823719942815" green="0.98431372549019602" blue="0.69446611516919199" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstItem="caK-Cy-e9U" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="HEx-y1-EXZ" secondAttribute="trailing" constant="8" symbolic="YES" id="5u1-QC-Zzk"/>
                                             <constraint firstItem="HEx-y1-EXZ" firstAttribute="leading" secondItem="wRw-vi-2pn" secondAttribute="leading" constant="10" id="Itz-ud-wLA"/>

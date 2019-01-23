@@ -224,9 +224,24 @@
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vlR-Py-stI">
                                         <rect key="frame" x="40" y="425" width="45" height="45"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZDU-3y-19e" customClass="DiceView" customModule="Dice" customModuleProvider="target">
+                                                <rect key="frame" x="5" y="5" width="35" height="35"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="initialResult">
+                                                        <integer key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                        </subviews>
                                         <color key="backgroundColor" red="0.0" green="0.7725490196" blue="0.23137254900000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
+                                            <constraint firstItem="ZDU-3y-19e" firstAttribute="leading" secondItem="vlR-Py-stI" secondAttribute="leading" constant="5" id="GWr-sd-FzI"/>
+                                            <constraint firstAttribute="bottom" secondItem="ZDU-3y-19e" secondAttribute="bottom" constant="5" id="KaZ-16-E6Z"/>
                                             <constraint firstAttribute="width" constant="45" id="Std-ea-OCU"/>
+                                            <constraint firstItem="ZDU-3y-19e" firstAttribute="top" secondItem="vlR-Py-stI" secondAttribute="top" constant="5" id="VMC-4Q-Mya"/>
+                                            <constraint firstAttribute="trailing" secondItem="ZDU-3y-19e" secondAttribute="trailing" constant="5" id="hlv-cJ-WIc"/>
                                             <constraint firstAttribute="height" constant="45" id="viW-UW-fhG"/>
                                         </constraints>
                                         <userDefinedRuntimeAttributes>
@@ -243,10 +258,25 @@
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jIN-fc-A9b">
                                         <rect key="frame" x="40" y="485" width="45" height="45"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fkh-Fn-j7e" customClass="DiceView" customModule="Dice" customModuleProvider="target">
+                                                <rect key="frame" x="5" y="5" width="35" height="35"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="initialResult">
+                                                        <integer key="value" value="3"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                        </subviews>
                                         <color key="backgroundColor" red="0.12941176470588237" green="0.45882352941176469" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
+                                            <constraint firstItem="fkh-Fn-j7e" firstAttribute="top" secondItem="jIN-fc-A9b" secondAttribute="top" constant="5" id="8jc-L9-02u"/>
+                                            <constraint firstItem="fkh-Fn-j7e" firstAttribute="leading" secondItem="jIN-fc-A9b" secondAttribute="leading" constant="5" id="Wks-VK-Tv7"/>
                                             <constraint firstAttribute="width" constant="45" id="dSa-Vd-mcJ"/>
                                             <constraint firstAttribute="height" constant="45" id="lQ9-g8-lc8"/>
+                                            <constraint firstAttribute="bottom" secondItem="fkh-Fn-j7e" secondAttribute="bottom" constant="5" id="u3x-m8-1GV"/>
+                                            <constraint firstAttribute="trailing" secondItem="fkh-Fn-j7e" secondAttribute="trailing" constant="5" id="xwy-Lh-Waz"/>
                                         </constraints>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -256,9 +286,24 @@
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xdC-y8-Gg3">
                                         <rect key="frame" x="40" y="545" width="45" height="45"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vGg-GH-mPL" customClass="DiceView" customModule="Dice" customModuleProvider="target">
+                                                <rect key="frame" x="5" y="5" width="35" height="35"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="initialResult">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                        </subviews>
                                         <color key="backgroundColor" red="0.40000000000000002" green="0.0" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
+                                            <constraint firstItem="vGg-GH-mPL" firstAttribute="leading" secondItem="xdC-y8-Gg3" secondAttribute="leading" constant="5" id="HSW-AY-Tkq"/>
+                                            <constraint firstItem="vGg-GH-mPL" firstAttribute="top" secondItem="xdC-y8-Gg3" secondAttribute="top" constant="5" id="XSf-ji-uLS"/>
+                                            <constraint firstAttribute="bottom" secondItem="vGg-GH-mPL" secondAttribute="bottom" constant="5" id="cys-CF-Q60"/>
                                             <constraint firstAttribute="height" constant="45" id="iea-f4-E7o"/>
+                                            <constraint firstAttribute="trailing" secondItem="vGg-GH-mPL" secondAttribute="trailing" constant="5" id="sFy-oc-Rg8"/>
                                             <constraint firstAttribute="width" constant="45" id="zP3-Vn-EQT"/>
                                         </constraints>
                                         <userDefinedRuntimeAttributes>
@@ -287,10 +332,25 @@
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cH6-1i-nlR">
                                         <rect key="frame" x="193" y="425" width="45" height="45"/>
-                                        <color key="backgroundColor" red="0.0" green="0.7725490196" blue="0.23137254900000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bgc-gK-ZNz" customClass="DiceView" customModule="Dice" customModuleProvider="target">
+                                                <rect key="frame" x="5" y="5" width="35" height="35"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="initialResult">
+                                                        <integer key="value" value="2"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="45" id="1Py-HM-nAv"/>
                                             <constraint firstAttribute="width" constant="45" id="5gD-kn-sSY"/>
+                                            <constraint firstAttribute="trailing" secondItem="bgc-gK-ZNz" secondAttribute="trailing" constant="5" id="Iud-Yw-uNt"/>
+                                            <constraint firstItem="bgc-gK-ZNz" firstAttribute="leading" secondItem="cH6-1i-nlR" secondAttribute="leading" constant="5" id="ccC-T2-W1X"/>
+                                            <constraint firstItem="bgc-gK-ZNz" firstAttribute="top" secondItem="cH6-1i-nlR" secondAttribute="top" constant="5" id="rTE-Oo-gSa"/>
+                                            <constraint firstAttribute="bottom" secondItem="bgc-gK-ZNz" secondAttribute="bottom" constant="5" id="uFd-p9-fTN"/>
                                         </constraints>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -300,9 +360,24 @@
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JVX-SG-kMn">
                                         <rect key="frame" x="193" y="485" width="45" height="45"/>
-                                        <color key="backgroundColor" red="0.12941176469999999" green="0.45882352939999999" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yPj-uv-h4b" customClass="DiceView" customModule="Dice" customModuleProvider="target">
+                                                <rect key="frame" x="5" y="5" width="35" height="35"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="initialResult">
+                                                        <integer key="value" value="4"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.80000000000000004" green="0.0" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="yPj-uv-h4b" secondAttribute="trailing" constant="5" id="3vn-pA-uR5"/>
+                                            <constraint firstItem="yPj-uv-h4b" firstAttribute="leading" secondItem="JVX-SG-kMn" secondAttribute="leading" constant="5" id="6FA-yW-5zh"/>
                                             <constraint firstAttribute="width" constant="45" id="LnH-gX-Klx"/>
+                                            <constraint firstItem="yPj-uv-h4b" firstAttribute="top" secondItem="JVX-SG-kMn" secondAttribute="top" constant="5" id="gZ8-6R-pVN"/>
+                                            <constraint firstAttribute="bottom" secondItem="yPj-uv-h4b" secondAttribute="bottom" constant="5" id="hDc-jw-Kp4"/>
                                             <constraint firstAttribute="height" constant="45" id="tX7-Ye-iS5"/>
                                         </constraints>
                                         <userDefinedRuntimeAttributes>
@@ -313,10 +388,25 @@
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WqK-4W-oZz">
                                         <rect key="frame" x="193" y="545" width="45" height="45"/>
-                                        <color key="backgroundColor" red="0.40000000000000002" green="0.0" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rRM-UJ-s4f" customClass="DiceView" customModule="Dice" customModuleProvider="target">
+                                                <rect key="frame" x="5" y="5" width="35" height="35"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="initialResult">
+                                                        <integer key="value" value="6"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.0" green="0.40000000000000002" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="rRM-UJ-s4f" secondAttribute="bottom" constant="5" id="HIh-t0-VMP"/>
+                                            <constraint firstAttribute="trailing" secondItem="rRM-UJ-s4f" secondAttribute="trailing" constant="5" id="LBQ-lO-ke2"/>
                                             <constraint firstAttribute="height" constant="45" id="Qeb-tn-jRV"/>
+                                            <constraint firstItem="rRM-UJ-s4f" firstAttribute="leading" secondItem="WqK-4W-oZz" secondAttribute="leading" constant="5" id="fD2-ah-vf0"/>
                                             <constraint firstAttribute="width" constant="45" id="oZZ-dT-hMS"/>
+                                            <constraint firstItem="rRM-UJ-s4f" firstAttribute="top" secondItem="WqK-4W-oZz" secondAttribute="top" constant="5" id="xcU-gQ-hPU"/>
                                         </constraints>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">

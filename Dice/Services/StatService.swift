@@ -13,7 +13,7 @@ class StatService {
     public static let shared = StatService()
     
     private let kGlobalCounterKey = "kCounter"
-    private let kResultKey = "kResut_"
+    private let kResultKey = "kResult_"
     
     var globalCounter: Int {
         get {

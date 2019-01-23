@@ -17,6 +17,12 @@ class DiceView: UIView {
     }
     private let color:  CGColor = UIColor.white.cgColor
     
+    @IBInspectable public var initialResult: Int = 1 {
+        didSet {
+            result = DiceResult(rawValue: initialResult - 1)
+        }
+    }
+    
     public var result: DiceResult? {
         didSet {
             refresh()

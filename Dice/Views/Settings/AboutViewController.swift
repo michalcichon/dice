@@ -16,6 +16,13 @@ class AboutViewController: UIViewController {
     @IBOutlet weak var counterValueLabel: UILabel!
     @IBOutlet weak var visitWebsiteButton: UIButton!
     
+    @IBOutlet weak var statsLabelOne: UILabel!
+    @IBOutlet weak var statsLabelTwo: UILabel!
+    @IBOutlet weak var statsLabelThree: UILabel!
+    @IBOutlet weak var statsLabelFour: UILabel!
+    @IBOutlet weak var statsLabelFive: UILabel!
+    @IBOutlet weak var statsLabelSix: UILabel!
+    
     @IBAction func closeAction(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
@@ -40,6 +47,14 @@ class AboutViewController: UIViewController {
         descriptionLabel.text = "description".localized
         counterLabel.text = "settings_counter".localized
         counterValueLabel.text = String(StatService.shared.globalCounter)
+        
+        statsLabelOne.text = String(StatService.shared.valueCounter(result: .one))
+        statsLabelTwo.text = String(StatService.shared.valueCounter(result: .two))
+        statsLabelThree.text = String(StatService.shared.valueCounter(result: .three))
+        statsLabelFour.text = String(StatService.shared.valueCounter(result: .four))
+        statsLabelFive.text = String(StatService.shared.valueCounter(result: .five))
+        statsLabelSix.text = String(StatService.shared.valueCounter(result: .six))
+        
         visitWebsiteButton.setTitle("settings_privacy_policy".localized, for: .normal)
     }
     

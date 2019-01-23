@@ -485,7 +485,7 @@
                                     <constraint firstItem="koP-f5-5sd" firstAttribute="centerX" secondItem="QJh-k9-biy" secondAttribute="centerX" id="tI0-Z9-Wkd"/>
                                     <constraint firstItem="vlR-Py-stI" firstAttribute="top" secondItem="wRw-vi-2pn" secondAttribute="bottom" constant="15" id="uCS-M7-w6u"/>
                                     <constraint firstItem="vlR-Py-stI" firstAttribute="leading" secondItem="QJh-k9-biy" secondAttribute="leading" constant="40" id="vny-5b-3Ux"/>
-                                    <constraint firstAttribute="bottom" secondItem="koP-f5-5sd" secondAttribute="bottom" constant="15" id="yra-5B-xlb"/>
+                                    <constraint firstAttribute="bottom" secondItem="koP-f5-5sd" secondAttribute="bottom" priority="250" constant="15" id="yra-5B-xlb"/>
                                 </constraints>
                             </scrollView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AeY-Y3-HtN" userLabel="Exit Button">
@@ -517,6 +517,12 @@
                         <outlet property="counterLabel" destination="HEx-y1-EXZ" id="Uro-kg-puq"/>
                         <outlet property="counterValueLabel" destination="caK-Cy-e9U" id="pTc-Y2-0AK"/>
                         <outlet property="descriptionLabel" destination="85I-nU-f9m" id="fUL-9g-RJ0"/>
+                        <outlet property="statsLabelFive" destination="wyC-o2-jud" id="gZu-bd-2Zy"/>
+                        <outlet property="statsLabelFour" destination="AKw-zF-03s" id="lZN-tZ-kL2"/>
+                        <outlet property="statsLabelOne" destination="2bD-ka-WNZ" id="lLN-kU-8Qf"/>
+                        <outlet property="statsLabelSix" destination="l8p-ld-Lco" id="aJQ-SN-new"/>
+                        <outlet property="statsLabelThree" destination="Acc-Lm-JtL" id="yuQ-c8-7Cw"/>
+                        <outlet property="statsLabelTwo" destination="a6g-jE-4hG" id="cTx-hw-uEH"/>
                         <outlet property="versionLabel" destination="846-CP-edz" id="Lik-f8-1XB"/>
                         <outlet property="visitWebsiteButton" destination="koP-f5-5sd" id="iyN-zd-8PG"/>
                     </connections>

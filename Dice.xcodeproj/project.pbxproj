@@ -76,6 +76,8 @@
 		9064087C21D7C6560021C226 /* SettingsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsService.swift; sourceTree = "<group>"; };
 		9066D25C21FDA63D00F9BFB7 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		9066D25E21FDA97E00F9BFB7 /* Toast.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Toast.xib; sourceTree = "<group>"; };
+		9066D26021FDD14900F9BFB7 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9066D26121FDD14A00F9BFB7 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		909957A721DEC13D003D5E8E /* EventsLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsLogger.swift; sourceTree = "<group>"; };
 		90C3697121D29F1100854988 /* Dice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90C3697421D29F1100854988 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -312,6 +314,7 @@
 				sk,
 				ro,
 				hr,
+				hu,
 			);
 			mainGroup = 90C3696821D29F1100854988;
 			productRefGroup = 90C3697221D29F1100854988 /* Products */;
@@ -441,6 +444,7 @@
 				900C9D9321D698D500BD738A /* sk */,
 				900C9D9521D698E500BD738A /* ro */,
 				900C9D9721D698EC00BD738A /* hr */,
+				9066D26021FDD14900F9BFB7 /* hu */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -463,6 +467,7 @@
 				900C9D9421D698D500BD738A /* sk */,
 				900C9D9621D698E500BD738A /* ro */,
 				900C9D9821D698EC00BD738A /* hr */,
+				9066D26121FDD14A00F9BFB7 /* hu */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";

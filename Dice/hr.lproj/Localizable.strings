@@ -11,3 +11,5 @@
 "settings_counter" = "Brojač";
 "settings_privacy_policy" = "Pravila o privatnosti";
 "settings_privacy_policy_url" = "http://michalcichon.github.io/dice-privacy-policy/cs.html";
+"settings_dimming_on" = "Onemogući zatamnjenje zaslona: omogućeno 🔆";
+"settings_dimming_off" = "Sprječavanje prigušivanja zaslona: onemogućeno 🔅";

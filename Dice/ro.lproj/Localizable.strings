@@ -11,3 +11,5 @@
 "settings_counter" = "Tejghea";
 "settings_privacy_policy" = "Politica de confidentialitate";
 "settings_privacy_policy_url" = "http://michalcichon.github.io/dice-privacy-policy/ro.html";
+"settings_dimming_on" = "Prevenirea diminuării ecranului: activată 🔆";
+"settings_dimming_off" = "Prevenirea stării ecranului: dezactivată 🔅";

@@ -11,3 +11,5 @@
 "settings_counter" = "Zähler";
 "settings_privacy_policy" = "Datenschutz-Bestimmungen";
 "settings_privacy_policy_url" = "http://michalcichon.github.io/dice-privacy-policy/de.html";
+"settings_dimming_on" = "Dimmen des Bildschirms verhindern: aktiviert 🔆";
+"settings_dimming_off" = "Dimmen des Bildschirms verhindern: deaktiviert 🔅";

@@ -71,6 +71,12 @@ class DiceViewController: UIViewController {
         viewModel.dimmingEnabled = !viewModel.dimmingEnabled
         refreshBulbToggle()
         EventsLogger.shared.logPreventDimmingToggle(on: !viewModel.dimmingEnabled)
+        if viewModel.dimmingEnabled {
+            Toast.present(text: "settings_dimming_off".localized)
+        } else {
+            Toast.present(text: "settings_dimming_on".localized)
+        }
+        
     }
     
     @objc private func tapOnView() {

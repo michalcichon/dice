@@ -11,3 +11,5 @@
 "settings_counter" = "Skranke";
 "settings_privacy_policy" = "Fortrolighedspolitik";
 "settings_privacy_policy_url" = "http://michalcichon.github.io/dice-privacy-policy/da.html";
+"settings_dimming_on" = "Forhindre skærmdæmpning: aktiveret 🔆";
+"settings_dimming_off" = "Forhindre skærmdæmpning: deaktiveret 🔅";

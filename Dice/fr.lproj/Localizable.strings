@@ -11,3 +11,5 @@
 "settings_counter" = "Compteur";
 "settings_privacy_policy" = "Politique de confidentialité";
 "settings_privacy_policy_url" = "http://michalcichon.github.io/dice-privacy-policy/fr.html";
+"settings_dimming_on" = "Empêcher l'assombrissement de l'écran: activé 🔆";
+"settings_dimming_off" = "Empêcher l'assombrissement de l'écran: désactivé 🔅";

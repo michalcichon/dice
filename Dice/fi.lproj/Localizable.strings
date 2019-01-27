@@ -11,3 +11,5 @@
 "settings_counter" = "Laskuri";
 "settings_privacy_policy" = "Tietosuojakäytäntö";
 "settings_privacy_policy_url" = "http://michalcichon.github.io/dice-privacy-policy/fi.html";
+"settings_dimming_on" = "Estä näytön himmennys: käytössä 🔆";
+"settings_dimming_off" = "Estä näytön himmennys: poistettu käytöstä 🔅";

@@ -11,3 +11,5 @@
 "settings_counter" = "Disken";
 "settings_privacy_policy" = "Integritetspolicy";
 "settings_privacy_policy_url" = "http://michalcichon.github.io/dice-privacy-policy/sv.html";
+"settings_dimming_on" = "Förhindra skärmdämpning: aktiverat 🔆";
+"settings_dimming_off" = "Förhindra skärmdämpning: inaktiverad 🔅";

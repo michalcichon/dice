@@ -11,3 +11,5 @@
 "settings_counter" = "Counter";
 "settings_privacy_policy" = "Privacy Policy";
 "settings_privacy_policy_url" = "http://michalcichon.github.io/dice-privacy-policy/en.html";
+"settings_dimming_on" = "Prevent screen dimming: on 🔆";
+"settings_dimming_off" = "Prevent screen dimming: off 🔅";

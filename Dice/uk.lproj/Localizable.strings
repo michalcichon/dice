@@ -11,3 +11,5 @@
 "settings_counter" = "Лічильник";
 "settings_privacy_policy" = "Політика конфіденційності";
 "settings_privacy_policy_url" = "http://michalcichon.github.io/dice-privacy-policy/ua.html";
+"settings_dimming_on" = "Заборона затемнення екрана: увімкнено 🔆";
+"settings_dimming_off" = "Запобігання затемненню екрана: вимкнено 🔅";

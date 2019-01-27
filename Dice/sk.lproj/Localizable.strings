@@ -11,3 +11,5 @@
 "settings_counter" = "Pult";
 "settings_privacy_policy" = "Zásady ochrany osobných údajov";
 "settings_privacy_policy_url" = "http://michalcichon.github.io/dice-privacy-policy/sk.html";
+"settings_dimming_on" = "Zabrániť stmievaniu obrazovky: povolené 🔆";
+"settings_dimming_off" = "Zabrániť stmievaniu obrazovky: vypnuté 🔅";

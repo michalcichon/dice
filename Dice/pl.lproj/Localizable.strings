@@ -11,3 +11,5 @@
 "settings_counter" = "Licznik";
 "settings_privacy_policy" = "Polityka Prywatności";
 "settings_privacy_policy_url" = "http://michalcichon.github.io/dice-privacy-policy/pl.html";
+"settings_dimming_on" = "Blokada ściemniania ekranu: włączona 🔆";
+"settings_dimming_off" = "Blokada ściemniania ekranu: wyłączona 🔅";
